@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="Scanner扫描仪的例子">
-      <change afterPath="$PROJECT_DIR$/src/day04/ScannerBySwitch.java" afterDir="false" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="Switch...case分支结构">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/ScannerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/ScannerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717376336617</updated>
-      <workItem from="1717376337689" duration="2996000" />
+      <workItem from="1717376337689" duration="3300000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <option name="closed" value="true" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717377555198</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Switch...case分支结构">
+      <option name="closed" value="true" />
+      <created>1717379388356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717379388356</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
     <MESSAGE value="测试" />
     <MESSAGE value="创建java基础学习项目" />
     <MESSAGE value="Scanner扫描仪的例子" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner扫描仪的例子" />
+    <MESSAGE value="Switch...case分支结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch...case分支结构" />
   </component>
 </project>
