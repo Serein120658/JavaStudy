@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Guessing {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         // 猜数字游戏
-        int temp = 100;
+        int temp = 50;
         while(true){
             System.out.print("Guess a number between 1 and 100: ");
-            Scanner sc = new Scanner(System.in);
             int guess = sc.nextInt();
             if(guess == temp){
                 System.out.println("Congratulations! You guessed correctly!");
@@ -19,5 +19,18 @@ public class Guessing {
                 System.out.println("Too high!");
             }
         }
+        // 第二种方法
+        int guess = sc.nextInt();
+        while(guess != temp){
+            if(guess < temp){
+                System.out.println("Too low!");
+            }else{
+                System.out.println("Too high!");
+            }
+            System.out.print("Guess a number: ");
+            guess = sc.nextInt();
+        }
+        System.out.println("Congratulations! You guessed correctly!");
+
     }
 }
