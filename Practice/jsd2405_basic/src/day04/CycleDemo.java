@@ -6,9 +6,9 @@ public class CycleDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         /**
-         * while循环
+         * while循环 先判断后执行，有可能一次都不执行
          * 案例1: 循环打印n次   行动是成功的阶梯
-         * do...while循环
+         * do...while循环 先执行后判断，循环至少执行一次
          */
         // 初始化循环次数
         int times = 0;
