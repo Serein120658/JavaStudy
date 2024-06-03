@@ -36,11 +36,18 @@ public class Guessing {
         System.out.println("Congratulations! You guessed correctly!");
 
         // 当循环的的第一要素和第三要素相同的时候，首选do...while循环
+        int guess1;
         do{
             System.out.print("Guess a number: ");
-            guess = sc.nextInt();
-
-        }while(guess!=temp);
+            guess1 = sc.nextInt();
+            if(guess1 == temp){
+                System.out.println("Congratulations! You guessed correctly!");
+            }else if(guess1 < temp){
+                System.out.println("Too low!");
+            }else{
+                System.out.println("Too high!");
+            }
+        }while(guess1!=temp);
 
     }
 }
