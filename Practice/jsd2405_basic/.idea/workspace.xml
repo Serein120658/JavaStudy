@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="课上扩展">
-      <change afterPath="$PROJECT_DIR$/src/day04/ForDemo.java" afterDir="false" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="课上补充(需要注意)">
+      <change afterPath="$PROJECT_DIR$/src/day04/exercise/ExerDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +159,7 @@
       <workItem from="1717394693859" duration="38000" />
       <workItem from="1717394795541" duration="111000" />
       <workItem from="1717395341723" duration="403000" />
-      <workItem from="1717395820806" duration="7749000" />
+      <workItem from="1717395820806" duration="12061000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <option name="closed" value="true" />
@@ -288,7 +289,55 @@
       <option name="project" value="LOCAL" />
       <updated>1717403578699</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="for的练习">
+      <option name="closed" value="true" />
+      <created>1717404094474</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717404094474</updated>
+    </task>
+    <task id="LOCAL-00018" summary=" 配置">
+      <option name="closed" value="true" />
+      <created>1717404170425</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717404170425</updated>
+    </task>
+    <task id="LOCAL-00019" summary=" 配置">
+      <option name="closed" value="true" />
+      <created>1717404243058</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717404243058</updated>
+    </task>
+    <task id="LOCAL-00020" summary=" for的练习1.0">
+      <option name="closed" value="true" />
+      <created>1717406602910</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717406602910</updated>
+    </task>
+    <task id="LOCAL-00021" summary=" for的练习1.0">
+      <option name="closed" value="true" />
+      <created>1717407626614</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717407626614</updated>
+    </task>
+    <task id="LOCAL-00022" summary="课上补充(需要注意)">
+      <option name="closed" value="true" />
+      <created>1717407651065</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1717407651065</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +348,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -321,7 +382,11 @@
     <MESSAGE value="猜数小游戏3.0" />
     <MESSAGE value="猜数小游戏的实现3.0" />
     <MESSAGE value="课上扩展" />
-    <option name="LAST_COMMIT_MESSAGE" value="课上扩展" />
+    <MESSAGE value="for的练习" />
+    <MESSAGE value=" 配置" />
+    <MESSAGE value=" for的练习1.0" />
+    <MESSAGE value="课上补充(需要注意)" />
+    <option name="LAST_COMMIT_MESSAGE" value="课上补充(需要注意)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
