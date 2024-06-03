@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="猜数小游戏的实现1.0">
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="猜数小游戏的实现2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day04/Guessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/Guessing.java" afterDir="false" />
     </list>
@@ -158,7 +158,7 @@
       <workItem from="1717394693859" duration="38000" />
       <workItem from="1717394795541" duration="111000" />
       <workItem from="1717395341723" duration="403000" />
-      <workItem from="1717395820806" duration="1837000" />
+      <workItem from="1717395820806" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <option name="closed" value="true" />
@@ -232,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717396918504</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="猜数小游戏的实现2.0">
+      <option name="closed" value="true" />
+      <created>1717397680187</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717397680187</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +268,8 @@
     <MESSAGE value="循环结构的基本语法和练习" />
     <MESSAGE value="猜数小游戏的实现" />
     <MESSAGE value="猜数小游戏的实现1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="猜数小游戏的实现1.0" />
+    <MESSAGE value="猜数小游戏的实现2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="猜数小游戏的实现2.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

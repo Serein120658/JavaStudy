@@ -9,7 +9,7 @@ public class Guessing {
         int temp = 50;
         // 使用math.random()生成一个随机数
         // 生成0-1000的随机数
-        temp = (int)(Math.random() * 1000);
+        temp = (int)(Math.random() * 1000 + 1);
         while(true){
             System.out.print("Guess a number: ");
             int guess = sc.nextInt();
