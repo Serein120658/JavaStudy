@@ -7,8 +7,11 @@ public class Guessing {
         Scanner sc = new Scanner(System.in);
         // 猜数字游戏
         int temp = 50;
+        // 使用math.random()生成一个随机数
+        // 生成0-1000的随机数
+        temp = (int)(Math.random() * 1000);
         while(true){
-            System.out.print("Guess a number between 1 and 100: ");
+            System.out.print("Guess a number: ");
             int guess = sc.nextInt();
             if(guess == temp){
                 System.out.println("Congratulations! You guessed correctly!");
