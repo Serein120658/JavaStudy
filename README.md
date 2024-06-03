@@ -3,7 +3,7 @@
 #### 介绍
 From now on, you will become stronger.
 
-#### Java世界之旅游
+#### Java旅游日记
 
 
 
