@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="Scanner输入不同的数据类型注意事项">
-      <change afterPath="$PROJECT_DIR$/src/day04/ScannerBySwitchTeacher.java" afterDir="false" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="Switch...case分支结构的使用(老师教的)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/CycleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.CycleDemo.executor": "Run",
+    "Application.ForDemo.executor": "Run",
     "Application.ScannerBySwitch.executor": "Run",
+    "Application.ScannerBySwitchTeacher.executor": "Run",
     "Application.ScannerDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -51,7 +56,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ScannerBySwitchTeacher">
+  <component name="RunManager" selected="Application.CycleDemo">
+    <configuration name="CycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.CycleDemo" />
+      <module name="jsd2405_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScannerBySwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.ScannerBySwitch" />
       <module name="jsd2405_basic" />
@@ -93,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CycleDemo" />
         <item itemvalue="Application.ScannerBySwitchTeacher" />
         <item itemvalue="Application.ScannerBySwitch" />
         <item itemvalue="Application.ScannerDemo" />
@@ -115,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717376336617</updated>
-      <workItem from="1717376337689" duration="5415000" />
+      <workItem from="1717376337689" duration="10165000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <option name="closed" value="true" />
@@ -157,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717379715852</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Switch...case分支结构的使用(老师教的)">
+      <option name="closed" value="true" />
+      <created>1717382144762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717382144762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +197,7 @@
     <MESSAGE value="Scanner扫描仪的例子" />
     <MESSAGE value="Switch...case分支结构" />
     <MESSAGE value="Scanner输入不同的数据类型注意事项" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner输入不同的数据类型注意事项" />
+    <MESSAGE value="Switch...case分支结构的使用(老师教的)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch...case分支结构的使用(老师教的)" />
   </component>
 </project>
