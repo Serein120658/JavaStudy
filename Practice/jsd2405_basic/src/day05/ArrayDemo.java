@@ -29,5 +29,16 @@ public class ArrayDemo {
         //  g = {1,2,3,};  // 编译错误，此方式只能声明，同时初始化
         g = new int[]{1,2,3};
 
+        // 数组的访问：访问数组当中的元素
+        int[] arr = new int[3];
+        System.out.println("数组的长度："+ arr.length);
+        System.out.println("数组的第一个元素是：" + arr[0]);
+        arr[0] = 100;  // 给第一个元素赋值为100
+        arr[1] = 200;  // 给第二个元素赋值为200
+        arr[2] = 300;  // 给第三个元素赋值为300
+        // arr[3] = 400; // 错误，数组越界
+        System.out.println(arr[2]);  // 输出第三个元素的值
+        System.out.println(arr[arr.length - 1]); // 输出数组最后一个元素的值
+
     }
 }
