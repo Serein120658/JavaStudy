@@ -12,7 +12,10 @@ public class MaxOfArray {
         }
         // 声明新的数组，数组的元素拷贝到新的数组中，使用java中自带的拷贝方法
         int[] arr2 = new int[arr.length];
+
+        // arraycopy(源数组，源数组的起始位置，目标数组，目标数组的起始位置，拷贝的个数)
         System.arraycopy(arr, 0, arr2, 0, arr.length);
+
 
         // 原始数组
         System.out.println("\n原始数组："+Arrays.toString(arr));
@@ -60,6 +63,21 @@ public class MaxOfArray {
         }
         System.out.println("数组排序后为："+ Arrays.toString(arr2));
         System.out.println("最大值为："+arr2[arr2.length-1]);
+
+        // 数组的复制
+        int[] a = {1,2,3,4,5};
+        int[] b = new int[5];
+        // 使用系统自带的的arraycopy方法
+        // arraycopy(源数组，源数组的起始位置，目标数组，目标数组的起始位置，拷贝的个数)
+        // 需要注意的是，如果目标数组的长度小于源数组的长度，则数组会截取前几个元素
+        // 如果目标数组的长度大于源数组的长度，则数组会自动补全
+        // System.arraycopy(a, 3, b, 1, a.length); // 越界，从a数组的第4个元素开始，到b数组的第2个元素，一共复制5个元素
+        // System.arraycopy(a, 1, b, 3, a.length); // 也会出现越界问题
+        System.arraycopy(a, 0, b, 0, a.length);  // 如果要复制的元素的个数超出复制到的那个数组的长度也会报错
+
+
+        // 使用系统自带的copyOf方法
+        int[] c = Arrays.copyOf(a, a.length);
 
     }
 }
