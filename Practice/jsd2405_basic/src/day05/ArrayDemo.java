@@ -40,5 +40,12 @@ public class ArrayDemo {
         System.out.println(arr[2]);  // 输出第三个元素的值
         System.out.println(arr[arr.length - 1]); // 输出数组最后一个元素的值
 
+        // 遍历(迭代)数组：从头到尾挨个走一遍
+        int[] arr1 = new int[10];
+        for(int i = 0;i<arr1.length;i++){  // 遍历arr1数组
+            arr1[i] = (int) (Math.random()*100);  // 随机生成0-99的整数
+            System.out.println(arr1[i]);
+        }
+
     }
 }
