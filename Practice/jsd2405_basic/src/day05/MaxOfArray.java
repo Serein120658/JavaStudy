@@ -83,6 +83,10 @@ public class MaxOfArray {
         // 好处是：可以扩容
         int[] c = Arrays.copyOf(a, a.length);
         c = Arrays.copyOf(c, c.length+1);
+        // 扩容之后
+        System.out.println(Arrays.toString(c));
+        c[c.length-1] = arr2[arr2.length - 1];
+        // 将最大值赋值给最后一个元素
         System.out.println(Arrays.toString(c));
 
 
