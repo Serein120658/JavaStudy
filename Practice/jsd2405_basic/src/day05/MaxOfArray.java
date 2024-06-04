@@ -51,7 +51,7 @@ public class MaxOfArray {
                 }
             }
             if(min != i){
-                System.out.println("第"+i+"次交换："+arr2[i]+"和"+arr2[min]);
+                // System.out.println("第"+i+"次交换："+arr2[i]+"和"+arr2[min]);
                 int temp = arr2[i];
                 arr2[i] = arr2[min];
                 arr2[min] = temp;
