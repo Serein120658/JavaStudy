@@ -80,7 +80,11 @@ public class MaxOfArray {
         // copyOf(源数组，拷贝的个数)，实现数组的复制
         // 如果拷贝的个数大于原数组的长度，则数组会自动补全
         // 如果拷贝到个数小于原数组的长度，则数组会截取前几个元素
+        // 好处是：可以扩容
         int[] c = Arrays.copyOf(a, a.length);
+        c = Arrays.copyOf(c, c.length+1);
+        System.out.println(Arrays.toString(c));
+
 
     }
 }
