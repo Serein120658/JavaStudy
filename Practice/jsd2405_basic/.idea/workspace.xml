@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="方法的学习">
-      <change afterPath="$PROJECT_DIR$/../../PPT/basic01.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PPT/basic02.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PPT/basic03.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PPT/basic04.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PPT/basic05.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PPT/basic06.pdf" afterDir="false" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="方法的练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day06/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/MethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Teacher/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Teacher/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Teacher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Teacher/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,62 +183,7 @@
       <workItem from="1717461943014" duration="31677000" />
       <workItem from="1717547237507" duration="10079000" />
       <workItem from="1717557748960" duration="24000" />
-    </task>
-    <task id="LOCAL-00013" summary="课上扩展">
-      <option name="closed" value="true" />
-      <created>1717399826934</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1717399826934</updated>
-    </task>
-    <task id="LOCAL-00014" summary="猜数小游戏3.0">
-      <option name="closed" value="true" />
-      <created>1717400042218</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1717400042218</updated>
-    </task>
-    <task id="LOCAL-00015" summary="猜数小游戏的实现3.0">
-      <option name="closed" value="true" />
-      <created>1717400364997</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1717400364997</updated>
-    </task>
-    <task id="LOCAL-00016" summary="课上扩展">
-      <option name="closed" value="true" />
-      <created>1717403578699</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1717403578699</updated>
-    </task>
-    <task id="LOCAL-00017" summary="for的练习">
-      <option name="closed" value="true" />
-      <created>1717404094474</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1717404094474</updated>
-    </task>
-    <task id="LOCAL-00018" summary=" 配置">
-      <option name="closed" value="true" />
-      <created>1717404170425</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1717404170425</updated>
-    </task>
-    <task id="LOCAL-00019" summary=" 配置">
-      <option name="closed" value="true" />
-      <created>1717404243058</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1717404243058</updated>
+      <workItem from="1717557821023" duration="1606000" />
     </task>
     <task id="LOCAL-00020" summary=" for的练习1.0">
       <option name="closed" value="true" />
@@ -584,7 +521,63 @@
       <option name="project" value="LOCAL" />
       <updated>1717554798138</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="资料">
+      <option name="closed" value="true" />
+      <created>1717557880208</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1717557880208</updated>
+    </task>
+    <task id="LOCAL-00063" summary="资料">
+      <option name="closed" value="true" />
+      <created>1717557944923</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1717557944924</updated>
+    </task>
+    <task id="LOCAL-00064" summary="资料">
+      <option name="closed" value="true" />
+      <created>1717557992313</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1717557992313</updated>
+    </task>
+    <task id="LOCAL-00065" summary="修改了.gitignore">
+      <option name="closed" value="true" />
+      <created>1717558233993</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558233993</updated>
+    </task>
+    <task id="LOCAL-00066" summary="剔除了不需要的东西">
+      <option name="closed" value="true" />
+      <created>1717558403183</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558403184</updated>
+    </task>
+    <task id="LOCAL-00067" summary="添加了.gitignore">
+      <option name="closed" value="true" />
+      <created>1717558533281</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558533281</updated>
+    </task>
+    <task id="LOCAL-00068" summary="方法的练习">
+      <option name="closed" value="true" />
+      <created>1717558756790</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1717558756790</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,11 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="continue跳过当前循环，进入下一次循环" />
-    <MESSAGE value="第五天的学习补充" />
-    <MESSAGE value="打印乘法口诀表" />
-    <MESSAGE value="数组定义" />
-    <MESSAGE value="数组初始化" />
     <MESSAGE value="数组的访问" />
     <MESSAGE value="数组的遍历" />
     <MESSAGE value="找出数组最大值，冒泡和选择排序" />
@@ -640,7 +628,12 @@
     <MESSAGE value="拓展练习3完成" />
     <MESSAGE value="拓展练习4完成" />
     <MESSAGE value="方法的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="方法的学习" />
+    <MESSAGE value="资料" />
+    <MESSAGE value="修改了.gitignore" />
+    <MESSAGE value="剔除了不需要的东西" />
+    <MESSAGE value="添加了.gitignore" />
+    <MESSAGE value="方法的练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="方法的练习" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

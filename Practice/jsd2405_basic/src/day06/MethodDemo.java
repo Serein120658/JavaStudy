@@ -1,6 +1,7 @@
 package day06;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * 方法的练习
@@ -19,6 +20,12 @@ public class MethodDemo {
         // 有参，有返回值方法调用，返回值为数组
         String[] arr = makeArray("小李",20,'男',3);
         System.out.println(Arrays.toString(arr));
+
+
+        // 随机生成一个数组，并返回
+        int[] array = new int[5];
+        array = getArray(5,100,200);
+        System.out.println("随机生成的数组为:" + Arrays.toString(array));
 
     }
 
@@ -48,4 +55,15 @@ public class MethodDemo {
 
         return str;
     }
+
+    // 生成一个整型数组，并随机填充数据，范围自定义
+    public static int[] getArray(int length,int min,int max) {
+        Random Random = new Random();
+        int[] arr = new int[length];
+        for (int i = 0; i < length; i++) {
+            arr[i] = Random.nextInt(max - min + 1) + min;
+        }
+        return arr;
+    }
+
 }
