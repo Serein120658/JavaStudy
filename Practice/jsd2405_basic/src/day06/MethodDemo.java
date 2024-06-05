@@ -13,6 +13,7 @@ public class MethodDemo {
 
         // 有参，无返回值方法调用
         makeFriends("小明");
+        makeFriends("小光");
 
         // 有参，有返回值方法调用
         System.out.println(makeMarriage("阿尔特曼","维丽娜"));
@@ -37,8 +38,10 @@ public class MethodDemo {
     }
 
     // 交朋友
-    public static void makeFriends(String name)
-    {
+    public static void makeFriends(String name) {
+        if(name.equals("小光")){
+            return;
+        }
         System.out.println("我想和"+name+"交朋友");
     }
 

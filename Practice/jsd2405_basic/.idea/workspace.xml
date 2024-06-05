@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="方法的练习1.0" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="面向对象">
+      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/jsd2405_oop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/MethodDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,31 +187,7 @@
       <workItem from="1717461943014" duration="31677000" />
       <workItem from="1717547237507" duration="10079000" />
       <workItem from="1717557748960" duration="24000" />
-      <workItem from="1717557821023" duration="3448000" />
-    </task>
-    <task id="LOCAL-00022" summary="课上补充(需要注意)">
-      <option name="closed" value="true" />
-      <created>1717407651065</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1717407651065</updated>
-    </task>
-    <task id="LOCAL-00023" summary="标准练习1">
-      <option name="closed" value="true" />
-      <created>1717408678475</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1717408678475</updated>
-    </task>
-    <task id="LOCAL-00024" summary="学习记录">
-      <option name="closed" value="true" />
-      <created>1717408783732</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1717408783732</updated>
+      <workItem from="1717557821023" duration="5410000" />
     </task>
     <task id="LOCAL-00025" summary="标准练习1的完成">
       <option name="closed" value="true" />
@@ -574,7 +557,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717560469514</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="面向对象">
+      <option name="closed" value="true" />
+      <created>1717563956864</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1717563956864</updated>
+    </task>
+    <task id="LOCAL-00072" summary="java基础">
+      <option name="closed" value="true" />
+      <created>1717564009354</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1717564009354</updated>
+    </task>
+    <task id="LOCAL-00073" summary="面向对象">
+      <option name="closed" value="true" />
+      <created>1717564058050</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1717564058050</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,8 +612,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="数组的遍历" />
-    <MESSAGE value="找出数组最大值，冒泡和选择排序" />
     <MESSAGE value="数组最大值，冒泡和选择排序" />
     <MESSAGE value="数组的复制" />
     <MESSAGE value="数组的复制1.0" />
@@ -630,7 +635,9 @@
     <MESSAGE value="添加了.gitignore" />
     <MESSAGE value="方法的练习" />
     <MESSAGE value="方法的练习1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="方法的练习1.0" />
+    <MESSAGE value="java基础" />
+    <MESSAGE value="面向对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
