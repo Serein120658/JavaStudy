@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="方法的练习1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/MethodDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +182,7 @@
       <workItem from="1717461943014" duration="31677000" />
       <workItem from="1717547237507" duration="10079000" />
       <workItem from="1717557748960" duration="24000" />
-      <workItem from="1717557821023" duration="2215000" />
+      <workItem from="1717557821023" duration="2628000" />
     </task>
     <task id="LOCAL-00021" summary=" for的练习1.0">
       <option name="closed" value="true" />

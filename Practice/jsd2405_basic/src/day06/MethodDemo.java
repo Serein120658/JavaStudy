@@ -27,6 +27,7 @@ public class MethodDemo {
         array = getArray(5,100,200);
         System.out.println("随机生成的数组为:" + Arrays.toString(array));
 
+
     }
 
     // 说好
