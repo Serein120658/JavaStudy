@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f03e9f1-f07a-4312-95f8-13a72a6b6f24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ReadMe/Construe/day04_6.3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/jsd2405_basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/jsd2405_basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/jsd2405_basic/src/day06/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/jsd2405_basic/src/day06/MethodDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +32,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Java Train1.0/Teacher/jsd2405_basic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +74,8 @@
       <updated>1717407897185</updated>
       <workItem from="1717407898496" duration="3242000" />
       <workItem from="1717461827877" duration="230000" />
+      <workItem from="1717558097795" duration="7000" />
+      <workItem from="1717558115647" duration="87000" />
     </task>
     <servers />
   </component>
