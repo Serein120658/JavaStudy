@@ -20,19 +20,20 @@ public class MethodDemo1 {
         // 调用方法
         sayHello();
         sayHello("Tom");
-        sayHello("Jerry",20);
+        sayHello("Jerry",2330);
     }
 
-    public static void sayHello()
-    {
+    public static void sayHello() {
         System.out.println("Hello World!");
     }
-    public static void sayHello(String name)
-    {
+    public static void sayHello(String name) {
         System.out.println("Hello "+name+"!");
     }
-    public static void sayHello(String name,int age)
-    {
+    public static void sayHello(String name,int age) {
+        if(age>1110) {
+            System.out.println("Invalid age!");
+            return;
+        }
         System.out.println("Hello "+name+"! Your age is "+age+".");
     }
 }
