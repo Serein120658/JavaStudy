@@ -12,7 +12,7 @@ public class MethodDemo {
         makeFriends("小明");
 
         // 有参，有返回值方法调用
-        makeMarriage("阿尔特曼","维丽娜");
+        System.out.println(makeMarriage("阿尔特曼","维丽娜"));
 
     }
 
@@ -29,8 +29,7 @@ public class MethodDemo {
     }
 
     // 求婚
-    public static void makeMarriage(String male,String female)
-    {
-        System.out.println(male + "正在向" + female + "求婚");
+    public static String makeMarriage(String male,String female) {
+        return (male + "正在向" + female + "求婚");
     }
 }
