@@ -6,5 +6,6 @@
     <mapping directory="$PROJECT_DIR$/Practice/jsd2405_oop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Teacher" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Teacher/jsd2405_basic" vcs="Git" />
+
   </component>
 </project>
