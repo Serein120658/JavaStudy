@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="课上补充(需要注意)">
-      <change afterPath="$PROJECT_DIR$/src/day04/exercise/ExerDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="方法的学习">
+      <change afterPath="$PROJECT_DIR$/../../PPT/basic01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PPT/basic02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PPT/basic03.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PPT/basic04.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PPT/basic05.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PPT/basic06.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/MethodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teacher/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Teacher/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teacher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Teacher/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,37 +48,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.CycleDemo.executor": "Run",
-    "Application.ForDemo.executor": "Run",
-    "Application.Guessing.executor": "Run",
-    "Application.ScannerBySwitch.executor": "Run",
-    "Application.ScannerBySwitchTeacher.executor": "Run",
-    "Application.ScannerDemo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ArrayDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BreakDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstrueDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContinueDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContrueDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CycleDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExerDemo4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExpandDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExpandDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExpandDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExpandDemo4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Guessing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScannerBySwitch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScannerBySwitchTeacher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScannerDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Guessing">
-    <configuration name="CycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.CycleDemo" />
+}</component>
+  <component name="RunManager" selected="Application.MethodDemo">
+    <configuration name="ExpandDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo1" />
       <module name="jsd2405_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Guessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.Guessing" />
+    <configuration name="ExpandDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo2" />
       <module name="jsd2405_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerBySwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.ScannerBySwitch" />
+    <configuration name="ExpandDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo3" />
       <module name="jsd2405_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerBySwitchTeacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.ScannerBySwitchTeacher" />
+    <configuration name="ExpandDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo4" />
       <module name="jsd2405_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.ScannerDemo" />
+    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.MethodDemo" />
       <module name="jsd2405_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,7 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Guessing" />
+        <item itemvalue="Application.MethodDemo" />
+        <item itemvalue="Application.ExpandDemo4" />
+        <item itemvalue="Application.ExpandDemo3" />
+        <item itemvalue="Application.ExpandDemo2" />
+        <item itemvalue="Application.ExpandDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,103 +187,10 @@
       <workItem from="1717394693859" duration="38000" />
       <workItem from="1717394795541" duration="111000" />
       <workItem from="1717395341723" duration="403000" />
-      <workItem from="1717395820806" duration="12061000" />
-    </task>
-    <task id="LOCAL-00001" summary="测试">
-      <option name="closed" value="true" />
-      <created>1717376516903</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717376516903</updated>
-    </task>
-    <task id="LOCAL-00002" summary="创建java基础学习项目">
-      <option name="closed" value="true" />
-      <created>1717376916077</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717376916077</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Scanner扫描仪的例子">
-      <option name="closed" value="true" />
-      <created>1717377555198</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1717377555198</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Switch...case分支结构">
-      <option name="closed" value="true" />
-      <created>1717379388356</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717379388356</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Scanner输入不同的数据类型注意事项">
-      <option name="closed" value="true" />
-      <created>1717379715852</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1717379715852</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Switch...case分支结构的使用(老师教的)">
-      <option name="closed" value="true" />
-      <created>1717382144762</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1717382144762</updated>
-    </task>
-    <task id="LOCAL-00007" summary="循环结构的基本语法和练习">
-      <option name="closed" value="true" />
-      <created>1717386942114</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1717386942114</updated>
-    </task>
-    <task id="LOCAL-00008" summary="猜数小游戏的实现">
-      <option name="closed" value="true" />
-      <created>1717395885081</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1717395885081</updated>
-    </task>
-    <task id="LOCAL-00009" summary="猜数小游戏的实现1.0">
-      <option name="closed" value="true" />
-      <created>1717396918504</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1717396918504</updated>
-    </task>
-    <task id="LOCAL-00010" summary="猜数小游戏的实现2.0">
-      <option name="closed" value="true" />
-      <created>1717397680187</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1717397680187</updated>
-    </task>
-    <task id="LOCAL-00011" summary="猜数小游戏的实现2.0">
-      <option name="closed" value="true" />
-      <created>1717398724380</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1717398724380</updated>
-    </task>
-    <task id="LOCAL-00012" summary="循环结构">
-      <option name="closed" value="true" />
-      <created>1717399237897</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1717399237897</updated>
+      <workItem from="1717395820806" duration="19094000" />
+      <workItem from="1717461943014" duration="31677000" />
+      <workItem from="1717547237507" duration="10079000" />
+      <workItem from="1717557748960" duration="24000" />
     </task>
     <task id="LOCAL-00013" summary="课上扩展">
       <option name="closed" value="true" />
@@ -337,7 +272,319 @@
       <option name="project" value="LOCAL" />
       <updated>1717407651065</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="标准练习1">
+      <option name="closed" value="true" />
+      <created>1717408678475</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717408678475</updated>
+    </task>
+    <task id="LOCAL-00024" summary="学习记录">
+      <option name="closed" value="true" />
+      <created>1717408783732</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1717408783732</updated>
+    </task>
+    <task id="LOCAL-00025" summary="标准练习1的完成">
+      <option name="closed" value="true" />
+      <created>1717409093399</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1717409093399</updated>
+    </task>
+    <task id="LOCAL-00026" summary="标准练习2的完成">
+      <option name="closed" value="true" />
+      <created>1717412791805</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717412791805</updated>
+    </task>
+    <task id="LOCAL-00027" summary="标准练习3的完成">
+      <option name="closed" value="true" />
+      <created>1717413143475</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1717413143475</updated>
+    </task>
+    <task id="LOCAL-00028" summary="标准练习4的完成">
+      <option name="closed" value="true" />
+      <created>1717414098542</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1717414098542</updated>
+    </task>
+    <task id="LOCAL-00029" summary="拓展练习1">
+      <option name="closed" value="true" />
+      <created>1717414343415</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1717414343415</updated>
+    </task>
+    <task id="LOCAL-00030" summary="拓展练习2">
+      <option name="closed" value="true" />
+      <created>1717416636070</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1717416636070</updated>
+    </task>
+    <task id="LOCAL-00031" summary="拓展练习3">
+      <option name="closed" value="true" />
+      <created>1717417050632</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1717417050632</updated>
+    </task>
+    <task id="LOCAL-00032" summary="串讲小练习">
+      <option name="closed" value="true" />
+      <created>1717419483487</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1717419483487</updated>
+    </task>
+    <task id="LOCAL-00033" summary="串讲小练习">
+      <option name="closed" value="true" />
+      <created>1717462113788</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1717462113788</updated>
+    </task>
+    <task id="LOCAL-00034" summary="break跳出循环">
+      <option name="closed" value="true" />
+      <created>1717463990736</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1717463990736</updated>
+    </task>
+    <task id="LOCAL-00035" summary="continue跳过当前循环，进入下一次循环">
+      <option name="closed" value="true" />
+      <created>1717465287078</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1717465287078</updated>
+    </task>
+    <task id="LOCAL-00036" summary="第五天的学习补充">
+      <option name="closed" value="true" />
+      <created>1717465866643</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1717465866643</updated>
+    </task>
+    <task id="LOCAL-00037" summary="打印乘法口诀表">
+      <option name="closed" value="true" />
+      <created>1717467338489</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1717467338489</updated>
+    </task>
+    <task id="LOCAL-00038" summary="数组定义">
+      <option name="closed" value="true" />
+      <created>1717471082430</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1717471082430</updated>
+    </task>
+    <task id="LOCAL-00039" summary="数组初始化">
+      <option name="closed" value="true" />
+      <created>1717472357980</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1717472357980</updated>
+    </task>
+    <task id="LOCAL-00040" summary="数组的访问">
+      <option name="closed" value="true" />
+      <created>1717481253662</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1717481253662</updated>
+    </task>
+    <task id="LOCAL-00041" summary="数组的访问">
+      <option name="closed" value="true" />
+      <created>1717481325244</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1717481325244</updated>
+    </task>
+    <task id="LOCAL-00042" summary="数组的遍历">
+      <option name="closed" value="true" />
+      <created>1717482362087</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1717482362087</updated>
+    </task>
+    <task id="LOCAL-00043" summary="找出数组最大值，冒泡和选择排序">
+      <option name="closed" value="true" />
+      <created>1717484449010</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1717484449010</updated>
+    </task>
+    <task id="LOCAL-00044" summary="数组最大值，冒泡和选择排序">
+      <option name="closed" value="true" />
+      <created>1717484492230</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1717484492230</updated>
+    </task>
+    <task id="LOCAL-00045" summary="数组的复制">
+      <option name="closed" value="true" />
+      <created>1717486522156</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1717486522156</updated>
+    </task>
+    <task id="LOCAL-00046" summary="数组的复制1.0">
+      <option name="closed" value="true" />
+      <created>1717487190533</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1717487190533</updated>
+    </task>
+    <task id="LOCAL-00047" summary="copyOf扩容">
+      <option name="closed" value="true" />
+      <created>1717488179331</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1717488179331</updated>
+    </task>
+    <task id="LOCAL-00048" summary="copyOf扩容练习">
+      <option name="closed" value="true" />
+      <created>1717489869186</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1717489869186</updated>
+    </task>
+    <task id="LOCAL-00049" summary="ArraySort练习">
+      <option name="closed" value="true" />
+      <created>1717491363892</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1717491363892</updated>
+    </task>
+    <task id="LOCAL-00050" summary="random生成随机数">
+      <option name="closed" value="true" />
+      <created>1717492353305</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1717492353305</updated>
+    </task>
+    <task id="LOCAL-00051" summary="闲时看到的题">
+      <option name="closed" value="true" />
+      <created>1717500503044</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1717500503044</updated>
+    </task>
+    <task id="LOCAL-00052" summary="标准练习1完成">
+      <option name="closed" value="true" />
+      <created>1717500728397</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1717500728397</updated>
+    </task>
+    <task id="LOCAL-00053" summary="标准练习2完成">
+      <option name="closed" value="true" />
+      <created>1717501758935</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1717501758935</updated>
+    </task>
+    <task id="LOCAL-00054" summary="标准练习3完成(添加冒泡和选择排序)">
+      <option name="closed" value="true" />
+      <created>1717503975106</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1717503975106</updated>
+    </task>
+    <task id="LOCAL-00055" summary="标准练习4完成">
+      <option name="closed" value="true" />
+      <created>1717504196409</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1717504196409</updated>
+    </task>
+    <task id="LOCAL-00056" summary="拓展练习1完成">
+      <option name="closed" value="true" />
+      <created>1717504324601</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1717504324601</updated>
+    </task>
+    <task id="LOCAL-00057" summary="拓展练习2完成">
+      <option name="closed" value="true" />
+      <created>1717504479571</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1717504479571</updated>
+    </task>
+    <task id="LOCAL-00058" summary="拓展练习3完成">
+      <option name="closed" value="true" />
+      <created>1717505249524</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1717505249524</updated>
+    </task>
+    <task id="LOCAL-00059" summary="拓展练习4完成">
+      <option name="closed" value="true" />
+      <created>1717505772199</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1717505772199</updated>
+    </task>
+    <task id="LOCAL-00060" summary="方法的学习">
+      <option name="closed" value="true" />
+      <created>1717554166515</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1717554166515</updated>
+    </task>
+    <task id="LOCAL-00061" summary="方法的学习">
+      <option name="closed" value="true" />
+      <created>1717554798138</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1717554798138</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,25 +615,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="测试" />
-    <MESSAGE value="创建java基础学习项目" />
-    <MESSAGE value="Scanner扫描仪的例子" />
-    <MESSAGE value="Switch...case分支结构" />
-    <MESSAGE value="Scanner输入不同的数据类型注意事项" />
-    <MESSAGE value="Switch...case分支结构的使用(老师教的)" />
-    <MESSAGE value="循环结构的基本语法和练习" />
-    <MESSAGE value="猜数小游戏的实现" />
-    <MESSAGE value="猜数小游戏的实现1.0" />
-    <MESSAGE value="猜数小游戏的实现2.0" />
-    <MESSAGE value="循环结构" />
-    <MESSAGE value="猜数小游戏3.0" />
-    <MESSAGE value="猜数小游戏的实现3.0" />
-    <MESSAGE value="课上扩展" />
-    <MESSAGE value="for的练习" />
-    <MESSAGE value=" 配置" />
-    <MESSAGE value=" for的练习1.0" />
-    <MESSAGE value="课上补充(需要注意)" />
-    <option name="LAST_COMMIT_MESSAGE" value="课上补充(需要注意)" />
+    <MESSAGE value="continue跳过当前循环，进入下一次循环" />
+    <MESSAGE value="第五天的学习补充" />
+    <MESSAGE value="打印乘法口诀表" />
+    <MESSAGE value="数组定义" />
+    <MESSAGE value="数组初始化" />
+    <MESSAGE value="数组的访问" />
+    <MESSAGE value="数组的遍历" />
+    <MESSAGE value="找出数组最大值，冒泡和选择排序" />
+    <MESSAGE value="数组最大值，冒泡和选择排序" />
+    <MESSAGE value="数组的复制" />
+    <MESSAGE value="数组的复制1.0" />
+    <MESSAGE value="copyOf扩容" />
+    <MESSAGE value="copyOf扩容练习" />
+    <MESSAGE value="ArraySort练习" />
+    <MESSAGE value="random生成随机数" />
+    <MESSAGE value="闲时看到的题" />
+    <MESSAGE value="标准练习1完成" />
+    <MESSAGE value="标准练习2完成" />
+    <MESSAGE value="标准练习3完成(添加冒泡和选择排序)" />
+    <MESSAGE value="标准练习4完成" />
+    <MESSAGE value="拓展练习1完成" />
+    <MESSAGE value="拓展练习2完成" />
+    <MESSAGE value="拓展练习3完成" />
+    <MESSAGE value="拓展练习4完成" />
+    <MESSAGE value="方法的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="方法的学习" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
