@@ -7,8 +7,5 @@ public class StudentTest {
         zg.sayHi();
         zg.playWith("李光");
         zg.study();
-
-
-
     }
 }
