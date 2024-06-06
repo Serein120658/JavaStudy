@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="面向对象">
-      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/jsd2405_oop.iml" afterDir="false" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="day06小T提示">
+      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/src/ooDay01/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/MethodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsd2405_oop/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/day06/CalTotalAvg.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -51,10 +51,12 @@
     &quot;Application.ArrayDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArraySort.executor&quot;: &quot;Run&quot;,
     &quot;Application.BreakDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalTotalAvg.executor&quot;: &quot;Run&quot;,
     &quot;Application.ConstrueDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContinueDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContrueDemo.executor&quot;: &quot;Run&quot;,
     &quot;Application.CycleDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DebugDemo.executor&quot;: &quot;Debug&quot;,
     &quot;Application.ExerDemo1.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExerDemo2.executor&quot;: &quot;Run&quot;,
     &quot;Application.ExerDemo3.executor&quot;: &quot;Run&quot;,
@@ -67,6 +69,7 @@
     &quot;Application.Guessing.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxOfArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.MethodDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodDemo1.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MultiTable.executor&quot;: &quot;Run&quot;,
     &quot;Application.ScannerBySwitch.executor&quot;: &quot;Run&quot;,
     &quot;Application.ScannerBySwitchTeacher.executor&quot;: &quot;Run&quot;,
@@ -85,13 +88,52 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MethodDemo">
-    <configuration name="ExpandDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo1" />
+  <component name="RunManager" selected="Application.ExpandDemo2">
+    <configuration name="ExerDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.exercise.ExerDemo1" />
       <module name="jsd2405_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.exercise.*" />
+          <option name="PATTERN" value="day06.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.exercise.ExerDemo2" />
+      <module name="jsd2405_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.exercise.ExerDemo3" />
+      <module name="jsd2405_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpandDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.exercise.ExpandDemo1" />
+      <module name="jsd2405_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,50 +142,11 @@
       </method>
     </configuration>
     <configuration name="ExpandDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo2" />
+      <option name="MAIN_CLASS_NAME" value="day06.exercise.ExpandDemo2" />
       <module name="jsd2405_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day05.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpandDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo3" />
-      <module name="jsd2405_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpandDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.exercise.ExpandDemo4" />
-      <module name="jsd2405_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day06.MethodDemo" />
-      <module name="jsd2405_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06.*" />
+          <option name="PATTERN" value="day06.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodDemo" />
-        <item itemvalue="Application.ExpandDemo4" />
-        <item itemvalue="Application.ExpandDemo3" />
         <item itemvalue="Application.ExpandDemo2" />
         <item itemvalue="Application.ExpandDemo1" />
+        <item itemvalue="Application.ExerDemo3" />
+        <item itemvalue="Application.ExerDemo2" />
+        <item itemvalue="Application.ExerDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -187,127 +190,8 @@
       <workItem from="1717461943014" duration="31677000" />
       <workItem from="1717547237507" duration="10079000" />
       <workItem from="1717557748960" duration="24000" />
-      <workItem from="1717557821023" duration="5410000" />
-    </task>
-    <task id="LOCAL-00025" summary="标准练习1的完成">
-      <option name="closed" value="true" />
-      <created>1717409093399</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1717409093399</updated>
-    </task>
-    <task id="LOCAL-00026" summary="标准练习2的完成">
-      <option name="closed" value="true" />
-      <created>1717412791805</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1717412791805</updated>
-    </task>
-    <task id="LOCAL-00027" summary="标准练习3的完成">
-      <option name="closed" value="true" />
-      <created>1717413143475</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1717413143475</updated>
-    </task>
-    <task id="LOCAL-00028" summary="标准练习4的完成">
-      <option name="closed" value="true" />
-      <created>1717414098542</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1717414098542</updated>
-    </task>
-    <task id="LOCAL-00029" summary="拓展练习1">
-      <option name="closed" value="true" />
-      <created>1717414343415</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1717414343415</updated>
-    </task>
-    <task id="LOCAL-00030" summary="拓展练习2">
-      <option name="closed" value="true" />
-      <created>1717416636070</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1717416636070</updated>
-    </task>
-    <task id="LOCAL-00031" summary="拓展练习3">
-      <option name="closed" value="true" />
-      <created>1717417050632</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1717417050632</updated>
-    </task>
-    <task id="LOCAL-00032" summary="串讲小练习">
-      <option name="closed" value="true" />
-      <created>1717419483487</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1717419483487</updated>
-    </task>
-    <task id="LOCAL-00033" summary="串讲小练习">
-      <option name="closed" value="true" />
-      <created>1717462113788</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1717462113788</updated>
-    </task>
-    <task id="LOCAL-00034" summary="break跳出循环">
-      <option name="closed" value="true" />
-      <created>1717463990736</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1717463990736</updated>
-    </task>
-    <task id="LOCAL-00035" summary="continue跳过当前循环，进入下一次循环">
-      <option name="closed" value="true" />
-      <created>1717465287078</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1717465287078</updated>
-    </task>
-    <task id="LOCAL-00036" summary="第五天的学习补充">
-      <option name="closed" value="true" />
-      <created>1717465866643</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1717465866643</updated>
-    </task>
-    <task id="LOCAL-00037" summary="打印乘法口诀表">
-      <option name="closed" value="true" />
-      <created>1717467338489</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1717467338489</updated>
-    </task>
-    <task id="LOCAL-00038" summary="数组定义">
-      <option name="closed" value="true" />
-      <created>1717471082430</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1717471082430</updated>
-    </task>
-    <task id="LOCAL-00039" summary="数组初始化">
-      <option name="closed" value="true" />
-      <created>1717472357980</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1717472357980</updated>
+      <workItem from="1717557821023" duration="21809000" />
+      <workItem from="1717633749706" duration="601000" />
     </task>
     <task id="LOCAL-00040" summary="数组的访问">
       <option name="closed" value="true" />
@@ -581,7 +465,127 @@
       <option name="project" value="LOCAL" />
       <updated>1717564058050</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="return">
+      <option name="closed" value="true" />
+      <created>1717567833874</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1717567833874</updated>
+    </task>
+    <task id="LOCAL-00075" summary="面向对象">
+      <option name="closed" value="true" />
+      <created>1717567867419</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1717567867419</updated>
+    </task>
+    <task id="LOCAL-00076" summary="方法的重载(overloading)">
+      <option name="closed" value="true" />
+      <created>1717569415841</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1717569415841</updated>
+    </task>
+    <task id="LOCAL-00077" summary="方法的重载(overloading)">
+      <option name="closed" value="true" />
+      <created>1717571584226</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1717571584226</updated>
+    </task>
+    <task id="LOCAL-00078" summary="debug调试工具的使用">
+      <option name="closed" value="true" />
+      <created>1717572352486</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1717572352486</updated>
+    </task>
+    <task id="LOCAL-00079" summary="评委打分练习(巩固方法的使用)">
+      <option name="closed" value="true" />
+      <created>1717574298345</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1717574298345</updated>
+    </task>
+    <task id="LOCAL-00080" summary="猜数小游戏(死循环版)">
+      <option name="closed" value="true" />
+      <created>1717578205600</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1717578205601</updated>
+    </task>
+    <task id="LOCAL-00081" summary="猜数小游戏(死循环版)">
+      <option name="closed" value="true" />
+      <created>1717578571855</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1717578571855</updated>
+    </task>
+    <task id="LOCAL-00082" summary="标准练习1完成">
+      <option name="closed" value="true" />
+      <created>1717580845359</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1717580845359</updated>
+    </task>
+    <task id="LOCAL-00083" summary="标准练习2完成">
+      <option name="closed" value="true" />
+      <created>1717581281335</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1717581281335</updated>
+    </task>
+    <task id="LOCAL-00084" summary="标准练习3完成">
+      <option name="closed" value="true" />
+      <created>1717581557510</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1717581557510</updated>
+    </task>
+    <task id="LOCAL-00085" summary="扩展练习1完成">
+      <option name="closed" value="true" />
+      <created>1717585627432</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1717585627432</updated>
+    </task>
+    <task id="LOCAL-00086" summary="扩展练习2完成">
+      <option name="closed" value="true" />
+      <created>1717585939234</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1717585939234</updated>
+    </task>
+    <task id="LOCAL-00087" summary="day05小T提示">
+      <option name="closed" value="true" />
+      <created>1717586566728</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1717586566728</updated>
+    </task>
+    <task id="LOCAL-00088" summary="day06小T提示">
+      <option name="closed" value="true" />
+      <created>1717586622698</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1717586622698</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,18 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="数组最大值，冒泡和选择排序" />
-    <MESSAGE value="数组的复制" />
-    <MESSAGE value="数组的复制1.0" />
-    <MESSAGE value="copyOf扩容" />
-    <MESSAGE value="copyOf扩容练习" />
-    <MESSAGE value="ArraySort练习" />
-    <MESSAGE value="random生成随机数" />
-    <MESSAGE value="闲时看到的题" />
-    <MESSAGE value="标准练习1完成" />
-    <MESSAGE value="标准练习2完成" />
-    <MESSAGE value="标准练习3完成(添加冒泡和选择排序)" />
-    <MESSAGE value="标准练习4完成" />
     <MESSAGE value="拓展练习1完成" />
     <MESSAGE value="拓展练习2完成" />
     <MESSAGE value="拓展练习3完成" />
@@ -636,8 +628,36 @@
     <MESSAGE value="方法的练习" />
     <MESSAGE value="方法的练习1.0" />
     <MESSAGE value="java基础" />
+    <MESSAGE value="return" />
     <MESSAGE value="面向对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象" />
+    <MESSAGE value="方法的重载(overloading)" />
+    <MESSAGE value="debug调试工具的使用" />
+    <MESSAGE value="评委打分练习(巩固方法的使用)" />
+    <MESSAGE value="猜数小游戏(死循环版)" />
+    <MESSAGE value="标准练习1完成" />
+    <MESSAGE value="标准练习2完成" />
+    <MESSAGE value="标准练习3完成" />
+    <MESSAGE value="扩展练习1完成" />
+    <MESSAGE value="扩展练习2完成" />
+    <MESSAGE value="day05小T提示" />
+    <MESSAGE value="day06小T提示" />
+    <option name="LAST_COMMIT_MESSAGE" value="day06小T提示" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day06/DebugDemo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day06/DebugDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
