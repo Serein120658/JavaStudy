@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="day06小T提示">
-      <change afterPath="$PROJECT_DIR$/../jsd2405_oop/src/ooDay01/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jsd2405_oop/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="day06小T提示" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
