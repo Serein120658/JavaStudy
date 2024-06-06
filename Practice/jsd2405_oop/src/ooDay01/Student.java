@@ -6,9 +6,8 @@ public class Student {
     String className;
     String stuId;
 
-    // 默认构造方法
+    // 默认无参构造方法，当重载了无参构造之后，便不再默认提供
     Student(){
-        System.out.println("我是一个学生");
     }
 
     // 带参数的构造方法
@@ -21,16 +20,16 @@ public class Student {
 
     // 学习
     void study(){
-        System.out.println(name + "正在学习");
+        System.out.println(this.name + "正在学习");
     }
 
     // 问好
     void sayHi(){
-        System.out.println("大家好！我叫" + name + "今年" + age + "岁了,所在班级为" + className + "我的学号是" + stuId );
+        System.out.println("大家好！我叫" + this.name + "今年" + this.age + "岁了,所在班级为" + this.className + "我的学号是" + stuId );
     }
 
     // 和别人一起玩
     void playWith(String anotherName){
-        System.out.println(name + "和" + anotherName + "一起玩");
+        System.out.println(this.name + "和" + anotherName + "一起玩");
     }
 }
