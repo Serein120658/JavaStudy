@@ -6,6 +6,19 @@ public class Student {
     String className;
     String stuId;
 
+    // 默认构造方法
+    Student(){
+        System.out.println("我是一个学生");
+    }
+
+    // 带参数的构造方法
+    Student(String name, int age, String className, String stuId){
+        this.name = name;
+        this.age = age;
+        this.className = className;
+        this.stuId = stuId;
+    }
+
     // 学习
     void study(){
         System.out.println(name + "正在学习");
