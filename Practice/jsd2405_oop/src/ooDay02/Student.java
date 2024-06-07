@@ -26,5 +26,9 @@ public class Student  extends Person{
         System.out.println(name + "正在学习");
     }
 
-    //
+    // void sayHi(){}
+   void sayHi(){
+        System.out.println("大家好，我是" + name + "，今年" + age +
+                "岁了" + "，来自" + address + "，班级是" + className + "，学号是" + stuId);
+   }
 }
