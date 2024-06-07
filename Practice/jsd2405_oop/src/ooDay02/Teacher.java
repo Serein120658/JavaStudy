@@ -16,5 +16,8 @@ public class Teacher extends Person{
     void teach() {
         System.out.println(name + "老师在讲授课程");
     }
+    void sayHi() {
+        System.out.println("我是" + name + "老师，今年" + age + "岁，工资" + salary + "元");
+    }
 
 }

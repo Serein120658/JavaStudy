@@ -39,7 +39,7 @@ public class ExtendsTest {
         Doctor ww = new Doctor("王五", 38, "北京", "主任医师");
         ww.eat();
         ww.sleep();
-        ww.sayHi();
+        ww.sayHi(); // 使用的是父类的sayHi()方法
 
         ww.cut();
     }
