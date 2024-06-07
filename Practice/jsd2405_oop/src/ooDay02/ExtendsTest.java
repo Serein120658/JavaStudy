@@ -10,7 +10,7 @@ public class ExtendsTest {
         p.address = "朝阳";
         p.eat();
         p.sleep();
-        p.sayHello();
+        p.sayHi();
 
         // 父类不能访问子类
         //  p.study();  // 报错
@@ -21,7 +21,7 @@ public class ExtendsTest {
         zs.eat();
         zs.sleep();
         zs.study();
-        zs.sayHello();
+        zs.sayHi();
 
         // 子类方法
         zs.sayHi();
@@ -31,7 +31,7 @@ public class ExtendsTest {
         // 父类
         ls.eat();
         ls.sleep();
-        ls.sayHello();
+        ls.sayHi();
         // 子类方法
         ls.teach();
 
@@ -39,7 +39,7 @@ public class ExtendsTest {
         Doctor ww = new Doctor("王五", 38, "北京", "主任医师");
         ww.eat();
         ww.sleep();
-        ww.sayHello();
+        ww.sayHi();
 
         ww.cut();
     }

@@ -30,7 +30,7 @@ public class Person {
     }
 
     // 问好
-    void sayHello(){
+    void sayHi(){
         System.out.println("大家好，我是" + name + "今年" + age + "岁了，现在住在" + address);
     }
 
