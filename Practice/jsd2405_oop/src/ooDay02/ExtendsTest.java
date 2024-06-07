@@ -21,7 +21,6 @@ public class ExtendsTest {
         zs.eat();
         zs.sleep();
         zs.study();
-        zs.sayHi();
 
         // 子类方法
         zs.sayHi();
