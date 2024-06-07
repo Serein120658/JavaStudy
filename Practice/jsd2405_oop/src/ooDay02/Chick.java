@@ -18,6 +18,6 @@ public class Chick extends Animal{
 
     @Override
     void drink() {
-         System.out.println(color + "颜色的" + age + "岁的小鸡" + name + "正在喝水");
+         System.out.println(color + "颜色的" + age + "岁的" + name + "正在喝水");
     }
 }
