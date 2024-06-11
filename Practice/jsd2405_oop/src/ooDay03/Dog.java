@@ -24,7 +24,7 @@ public class Dog extends Animal implements Swim {
     // 实现接口当中的方法,重写接口当中的方法
     @Override
     public void swim() {
-        System.out.println(color + "颜色的" + age +"岁的狗狗" + name + "正在游泳");
+        System.out.println(color + "颜色的" + age +"岁的狗狗" + name + "正在游泳，最大速度为:" + MAX_SPEED);
     }
 
 }
