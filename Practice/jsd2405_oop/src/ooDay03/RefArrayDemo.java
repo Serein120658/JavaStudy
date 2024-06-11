@@ -39,6 +39,37 @@ public class RefArrayDemo {
             fishs[i].swim();
         }
 
+        // 向上造型
+        Animal[] animals = new Animal[3];
+        animals[0] = new Dog("旺财", 3, "黄色");
+        animals[1] = new Chick("小黄", 2, "黄色");
+        animals[2] = new Fish("小黄", 2, "黄色");
+
+        animals[0].eat();  // 只能访问父类的方法和属性
+        // animals[0].lockHome(); // 不能使用子类的方法
+
+        // 向下造型,为了访问子类的方法，需要向下造型
+        // 向下造型需要强制转换
+        // 建议：在强转之前需要使用instanceof机进行判断是否是相应的类型
+        Animal[] animals1 = new Animal[3];
+        animals1[0] = new Dog("旺财", 3, "黄色");
+        animals1[1] = new Chick("小黄", 2, "黄色");
+        animals1[2] = new Fish("小黄", 2, "黄色");
+
+        for(int i =0 ;i<animals1.length;i++){
+            // 如果使用的是父类当中的属性或者方法，就不需要向下转型
+            // 如果需要使用子类的属性或者方法，就需要向下转型
+            // 向下转型实例
+            if(animals1[i] instanceof Dog){
+                // 强转
+                Dog dog = (Dog)animals1[i];
+                dog.lookHome(); // 使用子类特有的方法
+            }
+            if(animals1[i] instanceof Chick){
+                Chick chick = (Chick)animals1[i];
+                chick.layEggs(); // Chick类特有的方法
+            }
+        }
 
     }
 }
