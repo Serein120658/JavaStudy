@@ -10,7 +10,7 @@ public class AnimalTest {
         dog.drink();
 
         // 创建鸡类 名叫爱坤 年龄22 颜色背带裤
-   Chick chick = new Chick("爱坤", 22, "背带裤");
+        Chick chick = new Chick("爱坤", 22, "背带裤");
         chick.layEggs();
         chick.eat();
         chick.drink();
