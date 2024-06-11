@@ -20,6 +20,8 @@ public class AnimalTest {
         Fish fish = new Fish("波妞", 3, "粉白");
         fish.eat();
         fish.drink();
+        fish.swim();
+        // fish.MAX_SPEED = 100;  // 编译错误，因为接口里面的变量是final的，不能被修改
 
     }
 }

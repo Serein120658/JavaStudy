@@ -1,6 +1,6 @@
 package ooDay03;
 
-public class Fish extends Animal {
+public class Fish extends Animal implements Swim {
     // 无特殊属性
     Fish(){}
 
@@ -12,6 +12,11 @@ public class Fish extends Animal {
     @Override
     void eat() {
         System.out.println(color + "颜色的" + age + "岁的小🐟" + name + "正在吃小虾");
+    }
+
+    // 重写swim方法
+    public void swim() {
+        System.out.println(color + "颜色的" + age + "岁的小🐟" + name + "正在游泳，最大速度为：" + MAX_SPEED );
     }
 
 }
