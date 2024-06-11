@@ -8,5 +8,5 @@ package ooDay03;
  */
 
 public interface Swim {
-    void  swim();  // 相当于 abstract void swim(); 注意没有方法体,子类继承的接口必须实现接口中的方法
+    void swim();  // 相当于 abstract void swim(); 注意没有方法体,子类继承的接口必须实现接口中的方法
 }
