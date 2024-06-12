@@ -10,6 +10,7 @@ package ooDay04;
  */
 
 public interface Swim {
+
     // 接口当中的变量
     int MAX_SPEED = 100; // 默认是public static final MAX_SPEED = 100;
     int MIN_SPEED = 0;

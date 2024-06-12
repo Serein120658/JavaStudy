@@ -12,6 +12,7 @@ public class Chick extends Animal {
 
     // layEggs
     void layEggs(){
+
         System.out.println(color + "颜色的" + age + "岁的小鸡" + name + "正在下蛋");
     }
     //重写eat

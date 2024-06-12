@@ -5,7 +5,7 @@ public class Dog extends Animal implements Swim {
 
     Dog(){}
 
-    // 有参
+    // 有参构造
     Dog(String name, int age, String color){
         super(name,age,color);
     }
