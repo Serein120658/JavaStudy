@@ -61,17 +61,17 @@ public class PolymorphicDemo {
                 Dog dog = (Dog) animals[i];
                 // 此时就可以调用dog类里面的方法或者其他属性.例如
                 dog.lookHome();
-                dog.swim();
+                // dog.swim();
             }
             if(animals[i] instanceof Chick){
                 // 强制转换
                 Chick chick = (Chick) animals[i];
                 chick.layEggs();
             }
-            if(animals[i] instanceof Fish){
-                // 强制转换
-                Fish fish = (Fish) animals[i];
-                fish.swim();
+            // 适合所有具备游泳功能的动物
+            if(animals[i] instanceof Swim){
+                Swim swim = (Swim) animals[i];
+                swim.swim();
             }
         }
     }
