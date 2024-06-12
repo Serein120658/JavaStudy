@@ -23,14 +23,24 @@ public class AnonInnerClassDemo {
         // 创建了一个InterInter的派生类，但是没有名字
         // 创建了派生类的一个对象，名叫interinter   同时向上转型为InterInter
         // 大括号里面的内容为派生类的类体    可以简写，在后续的课程当中会讲到
+
+        // 需要注意的是，匿名内部类只能实现一个接口，不能实现多个接口
+        // 匿名内部类也不能修改外面的局部变量的值，例如下面:
+        int num = 10;
+
+        num = 100;
         InterInter interinter = new InterInter(){
+            // num = 1000; // 匿名内部类不能修改外面的局部变量的值
             // 重写抽象方法
             public void show(){
                 System.out.println("show");
+                // System.out.println(num); // 匿名内部类不能修改外面的局部变量的值
             }
         };
 
         interinter.show();
+
+
 
     }
 }
