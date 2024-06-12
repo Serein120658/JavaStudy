@@ -52,7 +52,9 @@ public class PolymorphicDemo {
             m1.feed(animals[i]);
         }
 
-        // 向下造型
+        // 向下造型，成功的条件只有如下两种：
+        // 1）、引用所指向的对象，就是该类型
+        // 2）、引用所指向的对象，实现了该接口或继承了该类
         for(int i = 0; i < animals.length; i++){
             if(animals[i] instanceof Dog){
                 // 强制转换
