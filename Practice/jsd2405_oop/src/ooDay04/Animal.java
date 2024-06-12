@@ -20,6 +20,7 @@ public abstract class Animal {
 
     // drink方法
     void drink(){
+
         System.out.println(color + "颜色的" + age + "岁的" + name + "正在喝水");
     }
 
