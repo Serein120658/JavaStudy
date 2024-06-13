@@ -19,5 +19,10 @@ public class StaticDemo {
         // 访问静态变量，常常由类名.访问
         System.out.println(StaticVar.b);
 
+        // 静态块
+        StaticBlock s1 = new StaticBlock();
+        StaticBlock s2 = new StaticBlock();
+        StaticBlock s3 = new StaticBlock();
+
     }
 }
