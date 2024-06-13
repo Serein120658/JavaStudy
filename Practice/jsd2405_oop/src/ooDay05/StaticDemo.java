@@ -1,8 +1,8 @@
 package ooDay05;
 
 /**
- * 实例变量:没有static修饰，属于对象，
- * 静态变量
+ * 实例变量:没有static修饰，属于对象，存储在堆当中，有几个对象就有几份  由对象/引用访问
+ * 静态变量：有static修饰，属于类，存储在方法区，只有一份   由类名访问    共享数据的时候使用，好处节约内存
  */
 public class StaticDemo {
     public static void main(String[] args) {
