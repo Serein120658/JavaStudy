@@ -22,7 +22,7 @@ public enum Seasons {
         this.desc = desc;
     }
 
-    // 如果含有成员变量，则需要getter和setter规范
+    // 如果含有成员变量，则需要getter()和setter()规范
     public String getName(){
         return name;
     }
