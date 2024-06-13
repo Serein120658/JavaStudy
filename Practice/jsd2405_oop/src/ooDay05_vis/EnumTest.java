@@ -9,6 +9,8 @@ public class EnumTest {
 
 
         Seasons s1 = s[0];
+        s1.setDesc("春江水暖鸭先知");
+        s1.setName("春");
         switch(s1){
             case SPRING:
                 System.out.println(s1.getName() +" " + s1.getDesc());
