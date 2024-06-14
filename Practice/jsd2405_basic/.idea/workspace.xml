@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="day06小T提示" />
+    <list default="true" id="cd1a9bcb-592a-41be-95b7-429fdd36b26e" name="Changes" comment="day06小T提示">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,6 +190,7 @@
       <workItem from="1717557748960" duration="24000" />
       <workItem from="1717557821023" duration="21809000" />
       <workItem from="1717633749706" duration="601000" />
+      <workItem from="1717643846578" duration="450000" />
     </task>
     <task id="LOCAL-00040" summary="数组的访问">
       <option name="closed" value="true" />
